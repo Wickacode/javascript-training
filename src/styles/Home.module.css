@@ -1,0 +1,22 @@
+.home-page {
+    margin: auto;
+    padding: 50px 0;
+    background-color: #e7eaf6;
+}
+
+.home-banner {
+    width: 80%;
+    border: 2px solid red;
+  }
+
+.image-container img {
+    width: 650px;
+        height: 100%;
+    object-fit: cover; 
+    mask-image: url('../assets/home-mask.png'); 
+    mask-size: cover; 
+    mask-repeat: no-repeat; 
+    -webkit-mask-image: url('../assets/home-mask.png');
+    -webkit-mask-size: cover;
+    -webkit-mask-repeat: no-repeat;
+  }
