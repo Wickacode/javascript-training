@@ -18,4 +18,15 @@
   ul {
     list-style-type: none;  
   }
+
+  .dfull {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .df {
+    display: flex;
+  }
+  
   

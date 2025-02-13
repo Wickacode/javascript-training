@@ -1,3 +1,31 @@
-.navbar {
-    background-color: aqua;
-}
+nav {
+    padding: 20px;
+    background-color: #38598b;
+  }
+  
+  .nav-container .logo {
+   width: 70px;
+  }
+  
+  .nav-container {
+      width: 70%;
+      margin: auto;
+  }
+  
+  .nav-container ul {
+      gap: 2rem;
+      color: aliceblue;
+  }
+  
+  .nav-container li {
+      text-decoration: underline;
+      text-decoration-color: aliceblue;
+      text-underline-offset: 7px;  
+      text-decoration-thickness: 2px; 
+      text-align: center;
+      cursor: pointer;
+  }
+  
+  .nav-container li:hover {
+      text-decoration-color: #a2a8d3;
+  }
