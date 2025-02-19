@@ -9,6 +9,8 @@ import PageForIn from './pages/For-in';
 import PageForOf from './pages/For-of';
 import PageForEach from './pages/Foreach';
 import PageBreakContinue from './pages/Break-continue';
+import Footer from './components/Footer';
+
 
 function App() {
   return (
@@ -24,6 +26,7 @@ function App() {
         <Route path="/ForEach" element={<PageForEach/>} /> 
         <Route path="/Break-Continue" element={<PageBreakContinue/>} /> 
       </Routes>
+      <Footer />
     </Router>
   );
 }

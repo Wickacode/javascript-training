@@ -3,7 +3,7 @@ import styles from "../styles/Home.module.css";
 
 function Home() {
   return (
-    <div className={`${styles["home-page"]} df aic jcc`}>
+    <div className={`${styles["home-page"]} df fdc jcc aic`}>
       <section className={`${styles["home-banner"]} dfull`}>
         <div>
           <h1>Et la boucle est bouclée !</h1>
@@ -28,6 +28,10 @@ function Home() {
         <div className={styles["image-container"]}>
           <img src={require("../assets/home-bg.png")} alt="Logo" />
         </div>
+      </section>
+
+      <section className={`${styles["home-content"]} df fdc jcc aic`}>
+        <h3>Apprendre</h3>
       </section>
     </div>
   );

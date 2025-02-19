@@ -4,14 +4,15 @@
     background-color: #e7eaf6;
 }
 
+/* Banner */
 .home-banner {
-    width: 80%;
-    border: 2px solid red;
+    width: 1400px;
+    height: 500px;
   }
 
 .image-container img {
     width: 650px;
-        height: 100%;
+    height: 100%;
     object-fit: cover; 
     mask-image: url('../assets/home-mask.png'); 
     mask-size: cover; 
@@ -20,3 +21,16 @@
     -webkit-mask-size: cover;
     -webkit-mask-repeat: no-repeat;
   }
+
+  /* Home page content */
+
+.home-content {
+  position: relative;
+  background: linear-gradient(rgba(56, 89, 139, 0.5), rgba(56, 89, 139, 0.5)),
+                url('../assets/loop.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 1000px;
+}
