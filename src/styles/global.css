@@ -19,6 +19,16 @@
     list-style-type: none;  
   }
 
+  h1 {
+    font-family: "Playwrite IT Moderna", serif;
+    font-size: 3rem;
+  }
+
+  h1 span {
+    color: #38598b;
+    font-size: 4rem;
+  }
+
   .dfull {
     display: flex;
     align-items: center;

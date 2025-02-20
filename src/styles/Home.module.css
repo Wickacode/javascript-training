@@ -1,36 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap");
 .home-page {
-    margin: auto;
-    padding: 50px 0;
-    background-color: #e7eaf6;
+  margin: auto;
+  background-color: #e7eaf6;
 }
 
 /* Banner */
 .home-banner {
-    width: 1400px;
-    height: 500px;
-  }
+  position: relative;
+  width: 1400px;
+  height: 500px;
+}
 
 .image-container img {
-    width: 650px;
-    height: 100%;
-    object-fit: cover; 
-    mask-image: url('../assets/home-mask.png'); 
-    mask-size: cover; 
-    mask-repeat: no-repeat; 
-    -webkit-mask-image: url('../assets/home-mask.png');
-    -webkit-mask-size: cover;
-    -webkit-mask-repeat: no-repeat;
-  }
+  width: 650px;
+  height: 100%;
+  object-fit: cover;
+  mask-image: url("../assets/home-mask.png");
+  mask-size: cover;
+  mask-repeat: no-repeat;
+  -webkit-mask-image: url("../assets/home-mask.png");
+  -webkit-mask-size: cover;
+  -webkit-mask-repeat: no-repeat;
+}
 
-  /* Home page content */
+/* Home page content */
 
 .home-content {
   position: relative;
-  background: linear-gradient(rgba(56, 89, 139, 0.5), rgba(56, 89, 139, 0.5)),
-                url('../assets/loop.jpg');
+  background: linear-gradient(rgba(56, 89, 139, 0.5), rgba(56, 89, 139, 1)),
+    url("../assets/loop.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   width: 100%;
   height: 1000px;
+}
+
+.wave {
+  position: absolute;
+  top: 0;
+  color: red;
 }
